@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContactsConsumer } from './contacts.context';
+import { ContactsConsumer } from '../context/contacts.context';
 import { List } from 'antd'
 import {Link} from 'react-router-dom'
 

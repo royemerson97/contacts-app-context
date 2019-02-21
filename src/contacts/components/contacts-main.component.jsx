@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
-import { ContactsRoutes } from './contacts.routes';
-import { ContactsProvider } from '../contacts/contacts.context';
+import { ContactsRoutes } from '../contacts.routes';
+import { ContactsProvider } from '../context/contacts.context';
 import {Row, Col} from 'antd'
 
 class Contacts extends PureComponent {

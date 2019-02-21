@@ -1,7 +1,7 @@
 import React from 'react';
 import {Switch, Route}  from 'react-router-dom';
-import { ContactsForm } from './contacts-form.component';
-import { ContactsList } from './contacts-list.component';
+import { ContactsForm } from './components/contacts-form.component';
+import { ContactsList } from './components/contacts-list.component';
 
 export const ContactsRoutes = (props) => (
     <Switch>

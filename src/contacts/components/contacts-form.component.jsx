@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form, Input, Button } from 'antd'
-import { ContactsConsumer } from './contacts.context';
+import { ContactsConsumer } from '../context/contacts.context';
 
 export const ContactsForm = () => (
     <ContactsConsumer>
