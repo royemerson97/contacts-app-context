@@ -1,6 +1,7 @@
 import React, { useContext, useRef } from 'react'
-import { ContactsContext } from '../reducer/contacts.hooks.context';
+import { ContactsContext } from '../state/contacts.hooks.context';
 import { Form, Input, Button } from 'antd'
+import { AddContact } from '../state/contacts.hooks.actions';
 export const ContactsHooksForm = ({history}) => {
     const { dispatch } = useContext(ContactsContext);
     const name = useRef(null);
@@ -8,14 +9,11 @@ export const ContactsHooksForm = ({history}) => {
     const email = useRef(null);
     const handleSubmit = (e) => {
         e.preventDefault();
-        dispatch({
-            type : 'ADD_CONTACT',
-            payload: {
-                name : name.current.state.value,
-                lastName : lastName.current.state.value,
-                email : lastName.current.state.value
-            }
-        });
+        dispatch(AddContact(
+            name.current.state.value,
+            lastName.current.state.value,
+            email.current.state.value
+        ));
         history.push('/contactshooks')
     }
     return (

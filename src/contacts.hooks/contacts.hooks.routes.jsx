@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import { ContactsHooksForm } from './components/contacts-form.hooks';
-import { ContactsContextProvider } from './reducer/contacts.hooks.context';
+import { ContactsContextProvider } from './state/contacts.hooks.context';
 import { ContactsHooksList } from './components/contacts-list.hooks';
 
 export const ContactsHooks = (props) => (
