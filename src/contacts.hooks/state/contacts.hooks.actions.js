@@ -3,7 +3,6 @@ import { ADD_CONTACT, DELETE_CONTACT, UPDATE_CONTACT } from "../contacts.hooks.a
 export const AddContact = (name, lastName, email) => ({
     type: ADD_CONTACT,
     payload: {
-        id: new Date(),
         name,
         lastName,
         email

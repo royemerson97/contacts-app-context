@@ -1,19 +1,11 @@
 import React, { useReducer } from 'react'
+import { reducer } from './contacts.hooks.reducer';
 
 const ContactsContext = React.createContext();
 
 const initialState = {
     contacts: []
 };
-
-const reducer = (state, action) => {
-    switch (action.type) {
-        case 'ADD_CONTACT':
-            return { ...state, contacts: [...state.contacts, action.payload] };
-        default:
-            return state;
-    }
-}
 
 const ContactsContextProvider = (props) => {
     const [state, dispatch] = useReducer(reducer, initialState);
