@@ -2,7 +2,7 @@ import React, { useContext, useRef } from 'react'
 import { ContactsContext } from '../state/contacts.context';
 import { Form, Input, Button } from 'antd'
 import { AddContact } from '../state/contacts.actions';
-export const ContactsHooksForm = ({history}) => {
+export const ContactsForm = ({history}) => {
     const { dispatch } = useContext(ContactsContext);
     const name = useRef(null);
     const lastName = useRef(null);

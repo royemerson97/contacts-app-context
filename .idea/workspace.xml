@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b1f3e1-9b18-455f-974f-801ce39aa673" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts.hooks/components/contacts-edit.hooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/components/contacts-edit.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts.hooks/components/contacts-form.hooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/components/contacts-form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts.hooks/components/contacts-list.hooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/components/contacts-list.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts.hooks/contacts.hooks.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/contacts.actions.constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts.hooks/contacts.hooks.routes.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts.hooks/state/contacts.hooks.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/state/contacts.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts.hooks/state/contacts.hooks.context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/state/contacts.context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts.hooks/state/contacts.hooks.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/state/contacts.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/components/contacts-form.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/components/contacts-list.component.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/components/contacts-main.component.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts/components/contacts-form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/components/contacts-form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts/components/contacts-list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/components/contacts-list.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contacts/contacts.routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/contacts.routes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/context/contacts.context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.routes.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,11 +60,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/contacts/contacts.routes.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="92">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -85,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contacts/components/contacts-list.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="22" column="110" selection-start-line="22" selection-start-column="110" selection-end-line="22" selection-end-column="110" />
+            <state relative-caret-position="138">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -97,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contacts/components/contacts-form.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="92">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -106,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contacts/components/contacts-edit.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="414">
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -130,9 +117,10 @@
         <option value="$PROJECT_DIR$/src/contacts.hooks/contacts.hooks.routes.jsx" />
         <option value="$PROJECT_DIR$/src/main.routes.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/contacts/components/contacts-list.jsx" />
-        <option value="$PROJECT_DIR$/src/contacts/components/contacts-form.jsx" />
         <option value="$PROJECT_DIR$/src/contacts/components/contacts-edit.jsx" />
+        <option value="$PROJECT_DIR$/src/contacts/components/contacts-form.jsx" />
+        <option value="$PROJECT_DIR$/src/contacts/components/contacts-list.jsx" />
+        <option value="$PROJECT_DIR$/src/contacts/contacts.routes.jsx" />
       </list>
     </option>
   </component>
@@ -208,12 +196,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550895083422</updated>
       <workItem from="1550895087392" duration="49000" />
-      <workItem from="1550895227585" duration="794000" />
+      <workItem from="1550895227585" duration="1538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="843000" />
+    <option name="totallyTimeSpent" value="1587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-274" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -277,40 +265,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts/contacts.routes.jsx">
+    <entry file="file://$PROJECT_DIR$/src/contacts/components/contacts-edit.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts/components/contacts-list.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="22" column="110" selection-start-line="22" selection-start-column="110" selection-end-line="22" selection-end-column="110" />
+        <state relative-caret-position="414">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contacts/components/contacts-form.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="92">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts/components/contacts-edit.jsx">
+    <entry file="file://$PROJECT_DIR$/src/contacts/components/contacts-list.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="138">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contacts/contacts.routes.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
