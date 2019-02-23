@@ -1,4 +1,4 @@
-import { ADD_CONTACT, DELETE_CONTACT, UPDATE_CONTACT } from "../contacts.hooks.actions";
+import { ADD_CONTACT, DELETE_CONTACT, UPDATE_CONTACT } from "../contacts.actions.constants";
 
 export const reducer = (state, action) => {
     switch (action.type) {

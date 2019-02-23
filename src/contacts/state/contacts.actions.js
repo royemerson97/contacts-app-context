@@ -1,4 +1,4 @@
-import { ADD_CONTACT, DELETE_CONTACT, UPDATE_CONTACT } from "../contacts.hooks.actions";
+import { ADD_CONTACT, DELETE_CONTACT, UPDATE_CONTACT } from "../contacts.actions.constants";
 
 export const AddContact = (name, lastName, email) => ({
     type: ADD_CONTACT,

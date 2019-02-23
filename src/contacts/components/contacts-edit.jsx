@@ -1,7 +1,7 @@
 import React, { useRef, useContext } from 'react';
-import { ContactsContext } from '../state/contacts.hooks.context';
+import { ContactsContext } from '../state/contacts.context';
 import { Form, Input, Button } from 'antd';
-import { UpdateContact } from '../state/contacts.hooks.actions';
+import { UpdateContact } from '../state/contacts.actions';
 
 export const ContactsEditForm = (props) => {
     const { history } = props;
@@ -19,7 +19,7 @@ export const ContactsEditForm = (props) => {
             lastName.current.state.value,
             email.current.state.value
         ));
-        history.push('/contactshooks')
+        history.push('/contacts')
     };
     return (
         <Form className="login-form" onSubmit={handleSubmit}>

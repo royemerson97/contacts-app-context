@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react'
-import { reducer } from './contacts.hooks.reducer';
+import { reducer } from './contacts.reducer';
 
 const ContactsContext = React.createContext();
 
