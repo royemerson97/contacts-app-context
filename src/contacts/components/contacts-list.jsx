@@ -1,12 +1,13 @@
+//@flow
 import React, { useContext } from 'react'
 import { List, Button } from 'antd'
 import { Link } from 'react-router-dom'
 import { ContactsContext } from '../state/contacts.context';
 import { DeleteContact } from '../state/contacts.actions';
 
-export const ContactsList = ({history}) => {
+export const ContactsList = ({history } : (Object)) => {
     const { state: { contacts } , dispatch } = useContext(ContactsContext);
-    const handleDeleteButtonClick = (id) =>{
+    const handleDeleteButtonClick = (id : number) =>{
         dispatch(
             DeleteContact(id)
         );
@@ -23,7 +24,6 @@ export const ContactsList = ({history}) => {
                     <Button onClick={() => handleDeleteButtonClick(contact.id)} type="danger" htmlType="button">Delete contact</Button>
                 </List.Item>
             )}>
-            {console.log(contacts)}
         </List>
     );
-}
+};

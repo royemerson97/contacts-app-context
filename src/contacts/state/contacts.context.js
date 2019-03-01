@@ -1,18 +1,20 @@
+//@flow
 import React, { useReducer } from 'react'
 import { reducer } from './contacts.reducer';
+import type {State} from "./state.types";
 
-const ContactsContext = React.createContext();
+const ContactsContext : Object = React.createContext();
 
-const initialState = {
+const initialState : State = {
     contacts: []
 };
 
-const ContactsContextProvider = (props) => {
+const ContactsContextProvider = (props : Object) => {
     const [state, dispatch] = useReducer(reducer, initialState);
-    const value = { state, dispatch }
+    const value = { state, dispatch };
     return (
         <ContactsContext.Provider value={value}>{props.children}</ContactsContext.Provider>
     )
-}
+};
 
 export { ContactsContext, ContactsContextProvider}
