@@ -1,13 +1,14 @@
+//@flow
 import React, { useContext, useRef } from 'react'
 import { ContactsContext } from '../state/contacts.context';
 import { Form, Input, Button } from 'antd'
 import { AddContact } from '../state/contacts.actions';
-export const ContactsForm = ({history}) => {
+export const ContactsForm = ({history} : (Object)) => {
     const { dispatch } = useContext(ContactsContext);
-    const name = useRef(null);
-    const lastName = useRef(null);
-    const email = useRef(null);
-    const handleSubmit = (e) => {
+    const name : Object = useRef(null);
+    const lastName : Object = useRef(null);
+    const email : Object = useRef(null);
+    const handleSubmit = (e : Object) => {
         e.preventDefault();
         dispatch(AddContact(
             name.current.state.value,
