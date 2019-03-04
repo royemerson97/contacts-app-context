@@ -17,4 +17,4 @@ export const Contacts = (props) => (
             }/>
         </Switch>
     </ContactsContextProvider>
-)
+);
